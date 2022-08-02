@@ -1,0 +1,114 @@
+.menu {
+  position: fixed;
+  width: 100rem;
+  padding: 1rem;
+  background-color: rgb(63, 61, 61);
+  color: rgb(255, 255, 255);
+  transition: background-color .1s;
+}
+
+.menu-right {
+  position: absolute;
+  right: 15rem;
+  padding: .5rem;
+}
+
+.link-one {
+  color: blue;
+}
+
+.button-support {
+  position: fixed;
+  padding: 1rem;
+  right: .5rem;
+  bottom: .5rem;
+  border-radius: 1rem;
+  font-size: 1rem;
+  background-color: rgb(111, 111, 241);
+  color: white;
+}
+
+.center-container {
+  position: relative;
+  text-align: center;
+  top: 20rem;
+  font-size: 3rem;
+}
+
+.button-download {
+  position: relative;
+  padding: 1rem;
+  margin-top: 21rem;
+  margin-left: 36rem;
+  font-size: 2rem;
+  border-radius: .5rem;
+  background-color: rgb(28, 114, 195);
+  color: white;
+}
+
+.txt {
+  margin-top: 2rem;
+  margin-left: 40rem;
+  color: black;
+}
+
+.txt-mid {
+  margin-top: 6rem;
+  text-align: center;
+  padding: 2rem;
+  color: rgb(108, 106, 106);
+}
+
+.txt-mid2 {
+  text-align: center;
+  color: rgb(108, 106, 106);
+}
+
+.midtxt-container {
+  padding: 1rem;
+}
+
+.midtxt {
+  position: relative;
+  display: inline;
+  left: 10rem;
+  top: 3rem;
+  padding: 1rem;
+}
+
+.midtxt2 {
+  position: relative;
+  display: inline;
+  left: 36rem;
+  top: 0rem;
+  padding: 1rem;
+}
+
+.midtxt3 {
+  position: relative;
+  display: inline;
+  left: 60rem;
+  top: 0rem;
+  padding: 1rem;
+}
+
+.txt-bot {
+  position: relative;
+  top: 3rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.item {
+  position: relative;
+  top: 10rem;
+  left: 28rem;
+  padding: 1rem;
+  display: inline;
+}
+
+.list {
+  position: absolute;
+  left: 1rem;
+  top: 3rem;
+}
