@@ -1,0 +1,220 @@
+body {
+  margin: 0;
+}
+
+.img {
+  background-image: url(https://tokentransit.com/static/img/header-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  padding: 1rem;
+  background-color: rgb(34, 34, 34);
+  color: #fff;
+}
+
+.menu-right {
+  float: right;
+  padding-right: 5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu-right * {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.download:hover {
+  color: #337ab7;
+}
+
+.support:hover {
+  color: #337ab7;
+}
+
+
+.pass:hover {
+  color: #337ab7;
+}
+
+
+.transit:hover {
+  color: #337ab7;
+}
+
+.link-one {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #2899d4;
+  transform: color .1s;
+}
+
+.link-one:hover {
+  color: #207aa9;
+}
+
+.button-support {
+  position: fixed;
+  padding: 1rem;
+  right: .5rem;
+  bottom: .5rem;
+  border-radius: 2rem;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.1rem;
+  border-color: white;
+  background-color: #2899d4;
+  color: white;
+}
+
+.center-container {
+  text-align: center;
+  top: 20rem;
+  font-size: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.title-one {
+  padding-top: 20rem;
+}
+
+.title-two {
+  margin-top: 1rem;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 5rem;
+  font-size: 5rem;
+}
+
+.button-download {
+  margin-left: 37rem;
+  padding: 1rem;
+  margin-top: 2rem;
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: .5rem;
+  background-color: #2899D4;
+  color: white;
+  transform: background-color .1s;
+}
+
+.button-download:hover {
+  background-color: #207aa9;
+}
+
+.txt {
+  margin-top: 1rem;
+  margin-left: 40rem;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.txt-mid {
+  display: block;
+  margin-top: 6rem;
+  margin-left: 18rem;
+  width: 50rem;
+  padding: 2rem;
+  text-align: center;
+  color: rgb(108, 106, 106);
+  font-family: inherit;
+}
+
+.txt-mid2 {
+  text-align: center;
+  color: rgb(108, 106, 106);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.midtxt-container {
+  padding: 1rem;
+}
+
+.midtxt {
+  position: relative;
+  text-align: center;
+  float: left;
+  width: 30%;
+  padding: 1rem;
+}
+
+.img1 {
+  margin-top: 2rem;
+  margin-left: 6rem;
+  height: auto;
+  width: auto;
+  max-width: 25rem;
+  max-height: 25rem;
+}
+
+.midtxt2 {
+  text-align: center;
+  position: relative;
+  float: left;
+  width: 30%;
+  padding: 1rem;
+}
+
+.midtxt3 {
+  text-align: center;
+  position: relative;
+  float: left;
+  width: 30%;
+  padding: 1rem;
+}
+
+.txt-bot {
+  margin-top: 46rem;
+  top: 4rem;
+  padding: 3rem;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bot-button {
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: .3rem;
+  border-color: white;
+  font-size: 1rem;
+  background-color: #2899d4;
+  color: white;
+}
+
+.txt-bot1 {
+  padding-bottom: 3rem;
+}
+
+.txt-bot2 {
+  padding: 3rem;
+}
+
+.txt-bot3 {
+  padding: 3rem;
+}
+
+.item {
+  float: left;
+  margin-top: 3rem;
+  margin-left: 3rem;
+  padding: 1rem;
+  display: inline;
+}
+
+.list {
+  position: relative;
+  margin-top: 1rem;
+  color: #207aa9;
+  transition: color .1s;
+}
+
+.list:hover {
+  color: #2899D4;
+}
