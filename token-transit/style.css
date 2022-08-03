@@ -68,7 +68,7 @@ body {
   font-size: 1rem;
   font-family: Arial, Helvetica, sans-serif;
   letter-spacing: 0.1rem;
-  border-color: white;
+  border-color: transparent;
   background-color: #2899d4;
   color: white;
 }
@@ -100,6 +100,7 @@ body {
   font-size: 2rem;
   font-family: Arial, Helvetica, sans-serif;
   border-radius: .5rem;
+  border-color: transparent;
   background-color: #2899D4;
   color: white;
   transform: background-color .1s;
@@ -127,6 +128,16 @@ body {
   font-family: inherit;
 }
 
+.mid-head {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.mid-para {
+  font-size: 1.2rem;
+}
+
 .txt-mid2 {
   text-align: center;
   color: rgb(108, 106, 106);
@@ -138,7 +149,6 @@ body {
 }
 
 .midtxt {
-  position: relative;
   text-align: center;
   float: left;
   width: 30%;
@@ -147,7 +157,7 @@ body {
 
 .img1 {
   margin-top: 2rem;
-  margin-left: 6rem;
+  margin-left: 1rem;
   height: auto;
   width: auto;
   max-width: 25rem;
@@ -156,7 +166,6 @@ body {
 
 .midtxt2 {
   text-align: center;
-  position: relative;
   float: left;
   width: 30%;
   padding: 1rem;
@@ -164,7 +173,6 @@ body {
 
 .midtxt3 {
   text-align: center;
-  position: relative;
   float: left;
   width: 30%;
   padding: 1rem;
@@ -184,8 +192,14 @@ body {
   border-radius: .3rem;
   border-color: white;
   font-size: 1rem;
+  letter-spacing: .1rem;
+  border-color: transparent;
   background-color: #2899d4;
   color: white;
+}
+
+.bot-button:hover {
+  background-color: #288bc1;
 }
 
 .txt-bot1 {
@@ -216,5 +230,5 @@ body {
 }
 
 .list:hover {
-  color: #2899D4;
+  color: #3486b2;
 }
