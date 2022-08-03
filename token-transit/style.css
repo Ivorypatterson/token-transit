@@ -119,8 +119,9 @@ body {
 
 .txt-mid {
   display: block;
-  margin-top: 6rem;
+  margin-top: 4rem;
   margin-left: 18rem;
+  margin-bottom: 6rem;
   width: 50rem;
   padding: 2rem;
   text-align: center;
@@ -139,8 +140,9 @@ body {
 }
 
 .txt-mid2 {
+  margin-top: 10rem;
   text-align: center;
-  color: rgb(108, 106, 106);
+  color: #333;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -230,5 +232,5 @@ body {
 }
 
 .list:hover {
-  color: #3486b2;
+  color: #24546e;
 }
